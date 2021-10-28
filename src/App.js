@@ -7,11 +7,6 @@ import Project from './components/Project';
 import projects from './projectList';
 
 function App() {
-  const projectObjs = projects.map(project => {
-    return (
-      <Project project={{ imgUrl: project.imgUrl, title: project.title, deployLink: project.deployedLink, repositoryLink: project.repositoryLink }} />
-    )
-  })
   return (
     <div>
       {/* <Header /> */}
