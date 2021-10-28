@@ -1,4 +1,8 @@
 import project1Img from "./assets/images/project-1.png";
+import project2Img from "./assets/images/project-2.png";
+import weatherImg from "./assets/images/weather.png";
+import teamProfile from "./assets/images/teamProfile.png";
+import schedulerImg from "./assets/images/scheduler.png";
 
 const projects = [
     {
@@ -11,35 +15,35 @@ const projects = [
     },
     {
         _id: "2",
-        imgUrl: "",
-        imgAlt: "",
-        title: "",
-        deployedLink: "",
-        repositoryLink: ""
+        imgUrl: project2Img,
+        style: {width: "400px", height: "200px"},
+        title: "BookMe",
+        deployedLink: "https://bookmebuyme.herokuapp.com/",
+        repositoryLink: "https://github.com/SalasD93/bookme"
     },
     {
         _id: "3",
-        imgUrl: "",
-        imgAlt: "",
-        title: "",
-        deployedLink: "",
-        repositoryLink: ""
+        imgUrl: weatherImg,
+        style: {width: "400px", height: "200px"},
+        title: "What's the Weather Like?",
+        deployedLink: "https://salasd93.github.io/whats-the-weather-like/",
+        repositoryLink: "https://github.com/SalasD93/whats-the-weather-like"
     },
     {
         _id: "4",
-        imgUrl: "",
-        imgAlt: "",
-        title: "",
-        deployedLink: "",
-        repositoryLink: ""
+        imgUrl: teamProfile,
+        style: {width: "400px", height: "200px"},
+        title: "Generate a Team Profile",
+        videoLink: "https://drive.google.com/file/d/1RT5vH1dW-Y7bDf8vSYyfE0HQHLSvCQDy/view",
+        repositoryLink: "https://github.com/SalasD93/generate-a-team-profile"
     },
     {
         _id: "5",
-        imgUrl: "",
-        imgAlt: "",
-        title: "",
-        deployedLink: "",
-        repositoryLink: ""
+        imgUrl: schedulerImg,
+        style: {width: "400px", height: "200px"},
+        title: "Work Day Scheduler",
+        deployedLink: "https://salasd93.github.io/work-day-scheduler-ch5/",
+        repositoryLink: "https://github.com/SalasD93/work-day-scheduler-ch5"
     }
 ];
 
