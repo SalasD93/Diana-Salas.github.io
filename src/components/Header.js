@@ -1,10 +1,10 @@
 import React from 'react';
 import Navigation from './Navigation';
 
-function Header() {
+function Header(props) {
     return (
         <div>
-            <Navigation />
+            <Navigation currentPage={props.currentPage} handlePageChange={props.handlePageChange}/>
         </div>
     )
 }
