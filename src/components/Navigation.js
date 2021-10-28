@@ -8,7 +8,7 @@ function Navigation(props) {
                 <li key={tab}>
                     <a
                         href={'#' + tab.toLowerCase()}
-                        onClick={() => props.handlPageChange(tab)}
+                        onClick={() => props.handlePageChange(tab)}
                         // className={}
                     >
                         {tab}
