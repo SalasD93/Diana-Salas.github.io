@@ -7,7 +7,7 @@ function Project(props) {
                 <div key={project._id}>
                     <img src={project.imgUrl} alt={project.title} style={project.style}/>
                     <h3>{project.title}</h3>
-                    <p><a href={project.deployedLink}>Deployed Application</a></p>
+                    <p>{project.deployedLink ? <a href={project.deployedLink}>Deployed Application</a> : <a href={project.videoLink}>Walkthrough Video</a>}</p>
                     <p><a href= {project.repositoryLink}>GitHub Repository</a></p>
                 </div>
             ))}
