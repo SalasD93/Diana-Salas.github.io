@@ -4,11 +4,12 @@
     --tertierary-color: #002C45;
     --soft-color: #B8E1FF;
     --light-color: #94FBAB;
-    --dark-color: rgb(56, 87, 133);
+    --dark-color: #385785;
 }
 
 body {
     background-color: var(--main-color);
+    width: 100%;
 }
 
 a, a:hover, a:focus, a:active  {
@@ -23,6 +24,7 @@ a, a:hover, a:focus, a:active  {
 .nav-list {
     list-style: none;
     padding-left: 0px;
+    display: grid;
 }
 
 .nav-link {
@@ -54,4 +56,24 @@ a, a:hover, a:focus, a:active  {
     color: var(--dark-color);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: var(--soft-color);
+}
+
+@media (max-width: 415px) {
+    .main-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .brand {
+        padding: 0px 0px;
+        margin: 0px 100px;
+    }
+    .nav-list {
+        font-size: 1rem;
+        flex-shrink: 1;
+        align-self: center;
+    }
+    .nav-link {
+        padding: 0px;
+        font-size: 1.25rem;
+    }
 }
