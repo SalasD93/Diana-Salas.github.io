@@ -7,20 +7,20 @@
     --dark-color: rgb(56, 87, 133);
 }
 
-a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
 body {
     background-color: var(--main-color);
+}
+
+a, a:hover, a:focus, a:active  {
+    text-decoration: none;
+    color: inherit;
 }
 
 .bg {
     background-color: var(--dark-color);
 }
 
-ul {
+.nav-list {
     list-style: none;
     padding-left: 0px;
 }
@@ -34,16 +34,23 @@ ul {
     font-style: italic;
 }
 
+.nav-link:visited {
+    color: #fdfdfd;
+}
+
+
 .nav-link:hover {
     color: var(--soft-color);
     transform: scale(1.2);
 }
 
-.nav-link:active {
+
+.nav-link:focus {
     color: var(--tertierary-color);
 }
 
-h1 {
+
+.brand {
     color: var(--dark-color);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: var(--soft-color);
