@@ -2,7 +2,7 @@ import React from 'react';
 
 function Project(props) {
     return (
-        <div>
+        <div className="project-main">
             {props.projects.map(project => ( 
                 <div key={project._id}>
                     <img src={project.imgUrl} alt={project.title} style={project.style}/>

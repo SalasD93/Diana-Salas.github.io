@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer/Footer';
-import About from './components/pages/About';
+import About from './components/pages/About/About';
 import Contact from './components/pages/Contact';
 import Portfolio from './components/pages/Portfolio';
 import Resume from './components/pages/Resume';
@@ -25,7 +25,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="main-container">
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <div>{renderPage(currentPage)}</div>
       <Footer />

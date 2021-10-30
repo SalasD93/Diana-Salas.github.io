@@ -1,15 +1,20 @@
 import styled from 'styled-components';
 
-export const Box = styled.div`
+export const Box = styled.footer`
   padding: 5px 5px;
   background: #385785;
   position: absolute;
   bottom: 0;
   width: 100%;
+  margin-top: auto;
   
 
   @media (max-width: 1000px) {
     padding: 20px 5px;
+  }
+
+  @media (max-width: 769px) {
+    padding: 10px 5px;
   }
 `;
 
@@ -38,7 +43,7 @@ export const Column = styled.div`
 `;
 
 export const FooterLink = styled.a`
-  color: #fff;
+  color: #ffff;
   margin-bottom: 20px;
   margin-top: 20px;
   font-size: 1.25rem;

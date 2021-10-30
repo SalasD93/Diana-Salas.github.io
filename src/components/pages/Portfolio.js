@@ -4,7 +4,7 @@ import projects from '../../projectList';
 
 function Portfolio() {
     return (
-        <div>
+        <div className="portfolio">
             Porfolio
             <Project projects={projects} />
         </div>
