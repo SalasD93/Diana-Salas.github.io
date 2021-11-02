@@ -4,9 +4,9 @@ import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import About from './components/pages/About/About';
-import Contact from './components/pages/Contact';
-import Portfolio from './components/pages/Portfolio';
-import Resume from './components/pages/Resume';
+import Contact from './components/pages/Contact/Contact';
+import Portfolio from './components/pages/Portfolio/Portfolio';
+import Resume from './components/pages/Resume/Resume';
 
 function App() {
   const [currentPage, handlePageChange] = useState('About');
