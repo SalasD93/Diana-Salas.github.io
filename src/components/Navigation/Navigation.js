@@ -1,21 +1,21 @@
 import React from 'react';
+import { NavList, NavItem, NavLink } from './NavigationStyles';
 
 function Navigation(props) {
     const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
     return (
-        <ul className="d-inline-flex flex-row align-items-end mb-0 nav-list">
+        <NavList className="rounded">
             {tabs.map(tab => (
-                <li key={tab} className="mx-2">
-                    <a
+                <NavItem key={tab}>
+                    <NavLink
                         href={'#' + tab.toLowerCase()}
                         onClick={() => props.handlePageChange(tab)}
-                        className="nav-link pb-0 pt-3"
                     >
                         {tab}
-                    </a>
-                </li>
+                    </NavLink>
+                </NavItem>
             ))}
-        </ul>
+        </NavList>
     );
 }
 

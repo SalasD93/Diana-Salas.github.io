@@ -11,6 +11,7 @@ html, body {
     background-color: var(--main-color);
     width: 100%;
     min-height: 100%;
+    margin: 0;
     position: absolute;
 }
 
@@ -31,43 +32,6 @@ a, a:hover, a:focus, a:active  {
     background-color: var(--dark-color);
 }
 
-.nav-list {
-    list-style: none;
-    padding-left: 0px;
-    display: grid;
-}
-
-.nav-link {
-    color: #fdfdfd;
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: 2rem;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: italic;
-}
-
-.nav-link:visited {
-    color: #fdfdfd;
-}
-
-
-.nav-link:hover {
-    color: var(--soft-color);
-    transform: scale(1.2);
-}
-
-
-.nav-link:focus {
-    color: var(--tertierary-color);
-}
-
-
-.brand {
-    color: var(--dark-color);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: var(--soft-color);
-}
-
 .portfolio {
     margin-bottom: 10%;
 }
@@ -79,25 +43,5 @@ a, a:hover, a:focus, a:active  {
 @media (min-width: 769px) {
     .portfolio {
         padding-bottom: 50px;
-    }
-}
-
-@media (max-width: 415px) {
-    .main-header {
-        flex-direction: column;
-        text-align: center;
-    }
-    .brand {
-        padding: 0px 0px;
-        margin: 0px 100px;
-    }
-    .nav-list {
-        font-size: 1rem;
-        flex-shrink: 1;
-        align-self: center;
-    }
-    .nav-link {
-        padding: 0px;
-        font-size: 1.25rem;
     }
 }
