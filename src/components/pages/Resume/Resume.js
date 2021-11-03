@@ -5,12 +5,12 @@ import './ResumeStyles.css'
 function Resume() {
     return (
         <section>
-            <h1>Resume</h1>
-            <a href={Pdf} target="_blank" rel="noreferrer">DOWNLOAD RESUME</a>
+            <h1 id="resume-header">Resume</h1>
+            <p id="resume-link"><a href={Pdf} target="_blank" rel="noreferrer">DOWNLOAD RESUME</a></p>
             <div id="container">
                 <div className="list-container">
                 <h2>FRONTEND Proficiencies</h2>
-                <ul>
+                <ul className="list">
                     <li>
                         HTML5
                     </li>
@@ -51,7 +51,7 @@ function Resume() {
                 </div>
                 <div className="list-container">
                 <h2>BACKEND Proficiencies</h2>
-                <ul>
+                <ul className="list">
                     <li>
                         APIs
                     </li>
@@ -89,7 +89,7 @@ function Resume() {
                 </div>
                 <div className="list-container">
                 <h2>Other Relevant Skills</h2>
-                <ul>
+                <ul className="list">
                     <li>
                         Git/GitHub/Git Bash
                     </li>

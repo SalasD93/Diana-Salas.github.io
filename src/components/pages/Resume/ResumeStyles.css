@@ -1,10 +1,38 @@
+#resume-header {
+    text-align: center;
+    margin-top: 2%;
+    color: var(--dark-color);
+}
+
+#resume-link {
+    text-align: center;
+    margin-bottom: 2%;
+    color: var(--soft-color);
+}
+
 #container {
     display: flex;
     flex-direction: row;
-    justify-content: around;
+    justify-content: space-between;
+    padding: 2%;
+    padding-top: 0;
+    margin-bottom: 10%;
 }
 
 .list-container {
     display: flex;
     flex-direction: column;
+    color: var(--tertierary-color);
+}
+
+.list {
+    color: var(--soft-color);
+    line-height: 1.5em;
+}
+
+@media (max-width: 415px) {
+    #container {
+        flex-direction: column;
+        margin-bottom: 30%;
+    }
 }
