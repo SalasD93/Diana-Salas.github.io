@@ -40,6 +40,7 @@ function ContactForm() {
   return (
     <section id="contact-section">
       <h1 data-testid="h1tag">Contact me</h1>
+      <p className="fs-4 text-center">This form is currently under maintenance. Please contact me directly at: <a href="mailto:salasd10418@gmail.com">salasd10418@gmail.com</a>.</p>
       <form className="rounded" id="contact-form" onSubmit={handleSubmit}>
         <div className="form-item text-white fs-5">
           <label htmlFor="name">Name:</label>
