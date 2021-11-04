@@ -1,0 +1,7 @@
+#portfolio-header {
+    color: var(--tertierary-color);
+    border-bottom: 4px solid var(--tertierary-color);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 1%;
+}
