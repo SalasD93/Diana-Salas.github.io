@@ -13,6 +13,7 @@ export const Brand = styled.h1`
     color: var(--dark-color);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: var(--soft-color);
+    padding-bottom: 0.25rem !important;
 
     @media (max-width: 1025px) {
         padding-top: .75rem !important;
@@ -25,8 +26,5 @@ export const Brand = styled.h1`
     @media (max-width: 376px) {
         padding-left: 0 !important;
         padding-right: 0 !important;
-    }
-    @media (max-width: 376px) {
         padding-top: 1.2rem !important;
-    }
 `;
