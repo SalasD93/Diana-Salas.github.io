@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="main-container">
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      <div>{renderPage(currentPage)}</div>
+      <main>{renderPage(currentPage)}</main>
       <Footer />
     </div>
   );
