@@ -8,6 +8,7 @@
 
 .portfolio {
     margin-bottom: 10%;
+    min-height: 100vh;
 }
 
 @media (min-width: 769px) {
