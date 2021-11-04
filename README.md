@@ -1,3 +1,3 @@
 # Diana Salas Portfolio
 
-I am creating a portfolio of my work using React.
+Please view my deployed portfolio here https://salas-diana-portfolio.herokuapp.com/
