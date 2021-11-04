@@ -4,8 +4,8 @@ export const Image = styled.img`
     align-self: center;
     width: 25vw;
 
-    @media (max-width: 415x) {
-        width: 30vw;
+    @media (max-width: 415px) {
+        width: 35vw;
     }
 `;
 
