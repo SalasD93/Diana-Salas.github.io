@@ -1,5 +1,5 @@
 import React from 'react';
-import Pdf from './Documents/Diana_Salas_Resume_Updated.pdf';
+import Pdf from './Documents/Salas-Diana-Resume.pdf';
 import './ResumeStyles.css'
 
 function Resume() {
