@@ -1,9 +1,11 @@
 import React from 'react';
-import { Container, Header } from './AboutStyles';
+import { Container, Image, Header } from './AboutStyles';
+import profilePic from './assets/images/ProfilePic.jpg';
 
 function About() {
     return (
         <Container>
+            <Image src={profilePic} alt='Image of Diana Salas'/>
             <Header>About</Header>
             <p>I hold an Associate of Science degree in Criminology and Criminal Justice. I obtained my degree in 2014 while studying at Hillsborough Community College in Tampa, FL. I graduated with honors. I am very ambitious, self-taught, self-motivated, and adaptable. I always strive to be the best and I love to learn and grow every chance I can.</p>
             <p>I am a Full Stack Web Developer with a certification from the University of Miami which I obtained through their intensive 24 week online Coding Bootcamp. I chose this career due to my fascination with learning how people work, wanting to know why they do the things they do, and how the brain works. When I realized computers function similarly to the human brain, I knew I could integrate that passion in a more hands-on way. </p>
