@@ -32,14 +32,6 @@ a, a:hover, a:focus, a:active  {
     background-color: var(--dark-color);
 }
 
-.portfolio {
-    margin-bottom: 10%;
-}
-
-.project-main {
-    margin-bottom: 15%;
-}
-
 @media (min-width: 769px) {
     .portfolio {
         padding-bottom: 50px;
