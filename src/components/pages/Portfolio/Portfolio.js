@@ -1,14 +1,14 @@
 import React from 'react';
 import Project from '../../Project/Project';
 import projects from '../../../projectList';
-// import {} from './PortfolioStyles';
+import './PortfolioStyles.css';
 
 function Portfolio() {
     return (
-        <div className="portfolio">
-            Porfolio
+        <section className="portfolio">
+            <h1 id="portfolio-header">Porfolio</h1>
             <Project projects={projects} />
-        </div>
+        </section>
     )
 }
 

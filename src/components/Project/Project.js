@@ -1,18 +1,19 @@
 import React from 'react';
-// import {} from './ProjectStyles';
+import './ProjectStyles.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function Project(props) {
     return (
-        <div className="project-main">
+        <section className="project-main" id="cards-container">
             {props.projects.map(project => ( 
-                <div key={project._id}>
-                    <img src={project.imgUrl} alt={project.title} style={project.style}/>
-                    <h3>{project.title}</h3>
-                    <p>{project.deployedLink ? <a href={project.deployedLink}>Deployed Application</a> : <a href={project.videoLink}>Walkthrough Video</a>}</p>
-                    <p><a href= {project.repositoryLink}>GitHub Repository</a></p>
-                </div>
+                <article className="project-cards" key={project._id}>
+                    <img id="project-img" src={project.imgUrl} alt={project.title} style={project.style} />
+                    {project.deployedLink ? <a href={project.deployedLink}><h3 className="show">{project.title}</h3></a> : <a href={project.videoLink}><h3 className="show">{project.title}</h3></a>}
+                    <a className="show" href= {project.repositoryLink}><FontAwesomeIcon icon={faGithub} /></a>
+                </article>
             ))}
-        </div>
+        </section>
     )
 }
 
