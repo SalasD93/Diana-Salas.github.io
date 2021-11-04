@@ -5,3 +5,13 @@
     margin-bottom: 2%;
     padding-left: 1%;
 }
+
+.portfolio {
+    margin-bottom: 10%;
+}
+
+@media (min-width: 769px) {
+    .portfolio {
+        padding-bottom: 50px;
+    }
+}
