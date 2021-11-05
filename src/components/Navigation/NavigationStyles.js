@@ -34,7 +34,7 @@ export const NavItem = styled.li`
 export const NavLink = styled.a`
     display: inline-block;
     text-align: center;
-    color: var(--dark-color);
+    color: var(--soft-color);
     text-decoration: none;
     font-weight: bolder;
     font-size: 2.25rem;
