@@ -29,7 +29,7 @@ I created a personal portfolio using React for potential employers to see who I 
 
 ## Mock-Up
 
-
+![gif](portfolio.gif)
 
 
 ## Built-With
