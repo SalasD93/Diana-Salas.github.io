@@ -40,8 +40,9 @@ function ContactForm() {
   return (
     <section id="contact-section">
       <h1 data-testid="h1tag">Contact me</h1>
-      <p className="fs-4 text-center">This form is currently under maintenance. Please contact me directly at: <a href="mailto:salasd10418@gmail.com">salasd10418@gmail.com</a>.</p>
-      <form className="rounded" id="contact-form" onSubmit={handleSubmit}>
+      <p className="fs-4 text-center">If you would like to discuss possible job opportunities, please contact me directly at: <a href="mailto:salasd10418@gmail.com">salasd10418@gmail.com</a>.</p>
+      <p className="fs-4 text-center">You can also reach me by phone: <a href="tel:4075769441">(407) 576-9441</a>.</p>
+      {/* <form className="rounded" id="contact-form" onSubmit={handleSubmit}>
         <div className="form-item text-white fs-5">
           <label htmlFor="name">Name:</label>
           <input className="text-center rounded" type="text" name="name" defaultValue={name} onBlur={handleChange} />
@@ -60,7 +61,7 @@ function ContactForm() {
           </div>
         )}
         <Button data-testid="button" type="submit" variant="info" size="lg" id="contact-button">Submit</Button>{' '}
-      </form>
+      </form> */}
     </section>
   );
 }
