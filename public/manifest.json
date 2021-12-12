@@ -4,7 +4,7 @@
   "icons": [
     {
       "src": "ProfilePic.jpg",
-      "type": "image/png",
+      "type": "image/jpg",
       "sizes": "192x192 512x512"
     }
   ],
