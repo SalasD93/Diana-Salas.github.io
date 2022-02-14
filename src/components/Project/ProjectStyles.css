@@ -49,6 +49,15 @@ h3.show {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.proj-summary {
+    padding-left: 10%!important;
+    padding-right: 10%!important;
+}
+
+.proj-summaryP {
+    text-align: center;
+}
+
 @media (max-width: 1025px) {
     #cards-container {
         margin-left: 0;
