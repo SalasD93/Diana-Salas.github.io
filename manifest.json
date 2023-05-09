@@ -1,6 +1,13 @@
 {
-  "short_name": "Diana Salas portfolio",
-  "name": "portfolio",
+  "short_name": "portfolio",
+  "name": "Diana Salas portfolio",
+  "icons": [
+    {
+      "src": "ProfilePic.jpg",
+      "type": "image/jpg",
+      "sizes": "192x192 512x512"
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
